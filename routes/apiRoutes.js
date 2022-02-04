@@ -42,6 +42,12 @@ router.post('/notes', (req, res) => {
     }
   });
 
+
+
+
+
+
+
   router.delete('notes/:id', (req, res) => {
     const noteId = req.params.id;
     readFromFile('../db/db.json')
